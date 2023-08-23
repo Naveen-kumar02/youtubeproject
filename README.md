@@ -13,3 +13,18 @@
         3.   Ability to collect data for up to 10 different YouTube channels and store them in the data lake by clicking a button.
         4.   Option to select a channel name and migrate its data from the data lake to a SQL database as tables.
         5.   Ability to search and retrieve data from the SQL database using different search options.
+
+# Project Overflow:
+    Step 1: create streamlit dashbord as per the requirement, go through the documnetation https://docs.streamlit.io/library/api-reference/performance/st.cache_data
+
+    Step 2: create google youtube api key , to create youtube api key refer the documentation          
+            https://docs.google.com/document/d/1c2cjHu1uaRacIeOBMgIfT3YXwbaKIIfm4_rxDAcczos/edit?usp=sharing
+
+    Step3: Scrape the channel details, playlist details, video details, comment details by using youtube api key and store into the mongodb by using mongodb 
+           connectivity in python
+
+    Step4: After store into the mongodb get the data from the mongodb and convert the data into table format the insert into the MySql 
+
+    Step5: once this process is finished you will get the answer by choosing the question and display in the streamlit dashboard.
+
+
